@@ -1,0 +1,491 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+.content{
+  padding-top: 110px;
+}
+
+.intro{
+  width: 100%;
+  display: inline-block;
+  height: auto;
+  padding: 0;
+}
+
+.intro-blok{
+  width: 50%;
+  background-color: #89cee6;
+  color: black;
+  border-radius: 0 0 85px;
+  float: left;
+  height: 350px;
+  margin: 0;
+  padding: 0;
+}
+
+.intro-tekst{
+  color: black;
+  padding: 25px;
+}
+
+.intro-blok-rechts{
+  float: right;
+  width: 50%;
+}
+
+nav{
+  background-color: #ffffff;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.8s;
+  -ms-transition: max-height 0.8s;
+  -moz-transition: max-height 0.8s;
+  -o-transition: max-height 0.8s;
+  transition: max-height 0.8s;
+}
+
+nav ul{
+  background-color: #ffffff;
+  overflow: hidden;
+  color: black;
+  padding: 0;
+  margin: 0;
+  -webkit-transition: max-height 0.4s;
+  -ms-transition: max-height 0.4s;
+  -moz-transition: max-height 0.4s;
+  -o-transition: max-height 0.4s;
+  transition: max-height 0.4s;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 20px;
+  color: black;
+  font-size: 14px;
+}
+
+nav ul li a{
+  color: black;
+}
+
+nav ul li:hover{
+  color: black;
+}
+
+nav ul li a:hover{
+  color: #89cee6;
+}
+
+.active{
+  color: #89cee6;
+}
+
+.align-left{
+  float: left;
+}
+
+.align-right{
+  float: right;
+}
+
+.always-align-right{
+  float: right;
+  text-align: center;
+}
+
+.handle{
+  width: 100%;
+  background: #ffffff;
+  box-sizing: border-box;
+  padding: 0 10px;
+  cursor: pointer;
+  color: white;
+  display: none;
+  text-align: left;
+}
+
+.navbar-logo{
+  height: auto;
+  width: auto;
+}
+
+.background-grey{
+  background-color: #e8e8e8;
+}
+
+.grey-background{
+  padding: 20px;
+}
+
+.grey{
+  padding: 20px 0 20px 0;
+  background-color: #e8e8e8;
+}
+
+.white-background{
+  padding: 100px;
+}
+
+.link{
+  color: inherit;
+}
+
+.btn{
+  background-color: #89cee6 !important;
+  border: 1px solid #000000 !important;
+}
+
+.btn:hover{
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+.hover:hover{
+  color: #89cee6;
+}
+
+.algemeen tr:hover{
+  color: #89cee6;
+}
+
+.highlight{
+  color: #89cee6;
+}
+
+.openingstijden td{
+  padding: 0 10px 0 10px;
+}
+
+.footer{
+  padding: 25px;
+}
+
+.footer-background{
+  background-color: #000000;
+  width: 100%;
+  height: auto;
+  margin: 0px 0px 0px;
+  padding: 0px 0px 15px 0px; 
+}
+
+.footer-content{
+  color: white;
+}
+
+.zwarte-lijn{
+  height: 1px;
+  width: 100%;
+
+  background-color: #000000;
+}
+
+.content-maker{
+  margin: auto;
+  width: 80%;
+  height: auto;
+  text-align: center;
+  padding: 5px 0 0 0;
+}
+
+.maker{
+  color: inherit;
+}
+
+.maker:hover{
+  color: #89cee6;
+}
+
+.intro-tekst-header{
+  padding-bottom: 15px;
+}
+
+.intro-image-box{
+  height: 350px;
+  width: 100%;
+}
+
+.intro-image{
+  height: 100%;
+  width: 100%;
+}
+
+.extra-padding{
+  padding-bottom: 25px;
+}
+
+.img-details{
+  width: auto;
+  height: auto;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.maps{
+  width: 80%;
+  height: 350px;
+}
+
+.inlogForm{
+  width: 100%;
+  height: 50%;
+  margin-top: 0;
+  margin-bottom: auto;
+}
+
+.inlogForm:hover{
+  box-shadow: 20px 20px 50px 10px grey;  
+}
+
+.inlogForm-content{
+  margin: 10%;
+  width: 80%;
+  height: auto;
+  padding: 25px;
+}
+
+.input{
+  padding: 10px;
+}
+
+.input-feedback{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 5px 0 0 5px;
+}
+
+.error{
+  padding-top: 5px;
+  color: red;
+}
+
+.hoofd-nieuwsbericht{
+  text-align: center;
+  padding: 0 20px 20px 0;
+}
+
+.gerelarteerd{
+  padding: 50px 0 10px 0;
+}
+
+.overzicht{
+  width: 90% !important;
+  height: auto;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ffffff;
+}
+
+.foto-overzicht{
+  height: 25px;
+  width: 25px;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.cbx{
+  height: auto !important;
+}
+
+.align-center{
+  text-align: center;
+}
+
+/*
+* Vanaf hier begint de style voor het responsive maken
+*/
+@media screen and (max-width: 1250px){
+  .intro-blok{
+    height: 347px;
+  }
+
+  .img-details{
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1050px){
+  nav ul{
+    max-height: 0;
+    width: inherit;
+    margin-right: inherit;
+  }
+
+  .showing{
+    max-height: 30em;
+    z-index: 1;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+
+  nav ul li{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+    color: black;
+    text-align: left;
+    z-index: 1;
+    margin-left: 0;
+  }
+
+  .align-right{
+    float: left;
+  }
+
+  .handle{
+    display: block;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .extra-padding{
+    padding-bottom: 15px !important;
+  }
+
+  .text-center{
+    text-align: center !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .intro-blok{
+    width: 100%;
+    background-color: #89cee6;
+    color: black;
+    border-radius: 0 0 0;
+    height: auto;
+  }
+  
+  .intro-tekst{
+    color: black;
+    padding: 25px;
+    width: 80%;
+  }
+
+  .intro-blok-rechts{
+    width: 100%;
+    height: auto;
+  }
+
+  .inlogForm-content{
+    margin: 25px 0 0 0;
+    width: 90%;
+    height: auto;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .overzicht{
+    width: 100% !important;
+    height: auto;
+    padding: 0;
+    margin: 0;
+  }
+
+  .overzicht tr{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin: 0;
+  }
+  
+  .overzicht th{
+    width: 12%;
+    height: auto;
+  }
+
+  .overzicht td{
+    width: 12%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .overzicht{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+  }
+
+  .foto-overzicht{
+    width: 15px;
+    height: 15px;
+  }
+}
+
+@media screen and (max-width: 580px){  
+  .intro-blok-rechts{
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 490px){  
+  .content{
+    padding-top: 110px;
+  }
+
+  .footer-content{
+    padding-left: 10px;
+  }
+  
+  .content-maker{
+    float: left;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .overzicht{
+    font-size: 10px;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+  }
+
+  .overzicht table{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .overzicht table th{
+    width: 10% !important;
+    font-size: 12px !important;
+    padding: 2px;
+    margin: 0;
+  }
+} 
+
+@media screen and (max-width: 380px){
+  .logo{
+    width: 70%;
+  }
+  
+  .navbar-logo{
+    width: 100%;
+    height: auto;
+  }
+
+  .overzicht table th{
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 10%;
+  }
+
+  .overzicht tr{
+    padding: 5px 0 5px 0;
+  }
+}
